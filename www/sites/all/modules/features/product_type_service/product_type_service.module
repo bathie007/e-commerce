@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the product type service feature.
+ */
+
+include_once 'product_type_service.features.inc';
