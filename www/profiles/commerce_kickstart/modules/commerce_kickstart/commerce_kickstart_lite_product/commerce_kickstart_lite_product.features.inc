@@ -16,6 +16,13 @@ function commerce_kickstart_lite_product_commerce_product_default_types() {
       'help' => '',
       'revision' => '1',
     ),
+    'service' => array(
+      'type' => 'service',
+      'name' => 'Service',
+      'description' => '',
+      'help' => '',
+      'revision' => '1',
+    ),
   );
   return $items;
 }
@@ -56,6 +63,7 @@ function commerce_kickstart_lite_product_image_default_styles() {
         'weight' => '1',
       ),
     ),
+    'label' => 'product_full',
   );
 
   // Exported image style: product_medium.
@@ -78,6 +86,7 @@ function commerce_kickstart_lite_product_image_default_styles() {
         'weight' => '1',
       ),
     ),
+    'label' => 'product_medium',
   );
 
   // Exported image style: product_thumbnail.
@@ -100,6 +109,7 @@ function commerce_kickstart_lite_product_image_default_styles() {
         'weight' => '1',
       ),
     ),
+    'label' => 'product_thumbnail',
   );
 
   return $styles;

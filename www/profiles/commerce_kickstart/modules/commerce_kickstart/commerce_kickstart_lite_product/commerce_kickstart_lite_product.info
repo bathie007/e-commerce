@@ -3,6 +3,8 @@ description = Provides the taxonomy vocabularies, product types, product display
 core = 7.x
 package = Commerce Kickstart
 php = 5.2.4
+version = 7.x-2.23
+project = commerce_kickstart_lite_product
 dependencies[] = cloud_zoom
 dependencies[] = commerce_cart
 dependencies[] = commerce_extra_price_formatters
@@ -22,12 +24,16 @@ dependencies[] = options
 dependencies[] = strongarm
 dependencies[] = taxonomy
 dependencies[] = title
+datestamp = 1429883631
 features[commerce_product_type][] = product
+features[commerce_product_type][] = service
 features[ctools][] = strongarm:strongarm:1
 features[features_api][] = api:1
 features[field][] = commerce_product-product-commerce_price
 features[field][] = commerce_product-product-field_images
 features[field][] = commerce_product-product-title_field
+features[field][] = commerce_product-service-commerce_price
+features[field][] = commerce_product-service-title_field
 features[field][] = node-product_display-body
 features[field][] = node-product_display-field_product
 features[field][] = node-product_display-field_product_category
@@ -49,10 +55,4 @@ features[variable][] = pathauto_node_pattern
 features[variable][] = pathauto_punctuation_hyphen
 features[variable][] = pathauto_taxonomy_term_pattern
 files[] = commerce_kickstart_lite_product.migrate.inc
-
-; Information added by Drupal.org packaging script on 2015-04-24
-version = "7.x-2.23"
-core = "7.x"
-project = "commerce_kickstart"
-datestamp = "1429883631"
-
+mtime = 1430213783
