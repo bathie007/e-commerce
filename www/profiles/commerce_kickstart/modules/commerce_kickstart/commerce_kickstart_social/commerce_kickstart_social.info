@@ -3,6 +3,8 @@ description = Social features for Commerce kickstart.
 core = 7.x
 package = Commerce Kickstart
 php = 5.2.4
+version = 7.x-2.23
+project = commerce_kickstart
 dependencies[] = block
 dependencies[] = connector_action_default_register_form
 dependencies[] = features
@@ -13,6 +15,7 @@ dependencies[] = oauthconnector
 dependencies[] = service_links
 dependencies[] = strongarm
 dependencies[] = widget_services
+datestamp = 1429883631
 features[ctools][] = oauthconnector:oauthconnector:1
 features[ctools][] = strongarm:strongarm:1
 features[features_api][] = api:1
@@ -31,10 +34,4 @@ features[variable][] = service_links_node_view_modes
 features[variable][] = service_links_show
 features[variable][] = service_links_style
 features[variable][] = service_links_visibility_for_node
-
-; Information added by Drupal.org packaging script on 2015-04-24
-version = "7.x-2.23"
-core = "7.x"
-project = "commerce_kickstart"
-datestamp = "1429883631"
-
+mtime = 1429883631
